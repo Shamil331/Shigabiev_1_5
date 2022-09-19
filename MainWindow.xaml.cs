@@ -24,6 +24,14 @@ namespace Shigabiev_1_5
         {
             InitializeComponent();
         }
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Background = new SolidColorBrush(Colors.Green);
+        }
 
+        private void TextField_MouseEnter(object sender, MouseEventArgs e)
+        {
+            (sender as TextBlock).Text = "GoodBye";
+        }
     }
 }
