@@ -24,5 +24,6 @@ namespace Shigabiev_1_5
         {
             InitializeComponent();
         }
+
     }
 }
